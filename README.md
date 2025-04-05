@@ -1,5 +1,5 @@
 # PAD
-Code for paper '*PAD: Large Language Models Enhancing Sequential Recommendation*' submitted to SIGIR 2025. We adopt SASRec as the backbone model and Prime Pantry dataset as an example. After preparation and phase 0 is done, the overall experiment will take about 20 minutes on 4 Tesla V100 GPUs.
+Code for paper '*PAD: Large Language Models Enhancing Sequential Recommendation*' accepted to SIGIR 2025 Full Paper. We adopt SASRec as the backbone model and Prime Pantry dataset as an example. After preparation and phase 0 is done, the overall experiment will take about 20 minutes on 4 Tesla V100 GPUs.
 
 **Preparation**
 
