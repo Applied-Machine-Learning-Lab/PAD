@@ -1,5 +1,5 @@
 # PAD
-Code for paper '*[Pre-train, Align, and Disentangle: Empowering Sequential Recommendation with Large Language Models](https://github.com/Applied-Machine-Learning-Lab/PAD)*' accepted to SIGIR 2025 Full Paper. We adopt SASRec as the backbone model and Prime Pantry dataset as an example. After preparation and phase 0 is done, the overall experiment will take about 20 minutes on 4 Tesla V100 GPUs.
+Code for paper '*[Pre-train, Align, and Disentangle: Empowering Sequential Recommendation with Large Language Models](https://dl.acm.org/doi/10.1145/3726302.3730059)*' accepted to SIGIR 2025 Full Paper. We adopt SASRec as the backbone model and Prime Pantry dataset as an example. After preparation and phase 0 is done, the overall experiment will take about 20 minutes on 4 Tesla V100 GPUs.
 
 **Preparation**
 
