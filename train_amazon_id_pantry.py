@@ -36,9 +36,10 @@ for l2_weight in l2_weight_list:
                 for mo_dnn_layers in mo_dnn_layers_list:
                     for dnn_layers in dnn_layers_list:
                         for lr in lr_list:
+                            fine_tune_lr = 0
                             label_screen = '{}_bs{}_ed{}_lr{}_dp{}_L2{}_Flr{}'.format(
                                 item_tower, batch_size, embedding_dim, lr,
-                                drop_rate, l2_weight)
+                                drop_rate, l2_weight, fine_tune_lr)
                             run_py = "CUDA_VISIBLE_DEVICES='0,1,2,3,4,5,6,7' \
                                      torchrun --nproc_per_node 8 --master_port 12345\
                                      run_amazon_Prime_Pantry.py --root_data_dir {}  --dataset {} --behaviors {} --news {}\
